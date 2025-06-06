@@ -22,6 +22,6 @@ class Boek
     }
     public void mening()
     {
-        Console.WriteLine("Boeken zijn heel stom!!!");
+        Console.WriteLine("Boeken zijn heel stom!!!!!!");
     }
 }
