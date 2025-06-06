@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
-Boek boek = new Boek("De Avonturen van Tom Sawyer", "Mark Twain", 300);
+Boek boek = new Boek("Alice in wonderland", "Lewis Caroll", 1000000000);
 class Boek
 {
     public string Titel;
@@ -14,8 +14,14 @@ class Boek
         PaginaAantal = paginaAantal;
     }
 
-    public override string ToString()
+    public void toon()
     {
-        return $"{Titel} - {Auteur} ({PaginaAantal} pagina's)";
+        Console.WriteLine(Titel);
+        Console.WriteLine(Auteur);
+        Console.WriteLine(PaginaAantal);
+    }
+    public void mening()
+    {
+        Console.WriteLine("Boeken zijn heel stom!");
     }
 }
